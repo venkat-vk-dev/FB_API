@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({ limit: "500mb", extended: false }));
 
 app.get('/', (req,res) => {
   try {
-    return res.status(200).json({ message: "HI FROM FB API v1.0" })
+    return res.status(200).json({ message: "HI FROM FB API v1.1" })
   } 
   catch (error) {
     console.log('Error in route /: ' + error)
